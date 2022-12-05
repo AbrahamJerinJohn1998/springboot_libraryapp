@@ -36,4 +36,9 @@ public class librarycontroller {
     {
         return "Welcome book issue page";
     }
+    @GetMapping("/viewBooks")
+    public String viewBooks()
+    {
+        return "Welcome view all books page";
+    }
 }
