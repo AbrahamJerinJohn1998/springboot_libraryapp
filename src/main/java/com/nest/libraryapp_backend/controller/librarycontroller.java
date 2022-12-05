@@ -31,4 +31,9 @@ public class librarycontroller {
     {
         return "Welcome book delete page";
     }
+    @GetMapping("/bookIssue")
+    public String bookIssue()
+    {
+        return "Welcome book issue page";
+    }
 }
