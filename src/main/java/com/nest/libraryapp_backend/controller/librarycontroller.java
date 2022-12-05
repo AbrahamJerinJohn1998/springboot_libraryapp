@@ -21,4 +21,9 @@ public class librarycontroller {
     {
         return "Welcome book edit page";
     }
+    @GetMapping("/bookSearch")
+    public String bookSearch()
+    {
+        return "Welcome book search page";
+    }
 }
