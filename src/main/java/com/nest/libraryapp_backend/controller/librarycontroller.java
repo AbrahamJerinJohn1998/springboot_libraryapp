@@ -26,4 +26,9 @@ public class librarycontroller {
     {
         return "Welcome book search page";
     }
+    @GetMapping("/bookDelete")
+    public String bookDelete()
+    {
+        return "Welcome book delete page";
+    }
 }
